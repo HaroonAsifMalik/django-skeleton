@@ -1,5 +1,5 @@
 [project]
-name = "django-boilerplate"
+name = "django-starter"
 version = "0.1.0"
 description = ""
 authors = [
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "django_boilerplate", from = "src"}]
+packages = [{include = "django_starter", from = "src"}]
 
 
 [tool.poetry.group.dev.dependencies]
