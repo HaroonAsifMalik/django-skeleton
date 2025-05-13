@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# Poetry
+*.egg-info/
+dist/
+build/
+.poetry/
+
+# Virtual environments (just in case)
+.env
+.venv
+venv/
+ENV/
+env/
+
+# VSCode and PyCharm settings
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# dotenv
+.env.*
+.env
+
+# pre-commit
+.pre-commit-config.yaml
+.pre-commit-hooks.yaml
+# Caches and logs from hooks
+.pre-commit/
+*.mypy_cache/
+*.pytest_cache/
+*.coverage
+coverage.xml
+htmlcov/
+
+# Test output
+*.log
+test-results/
+junit.xml
+
+# Mac/Linux file system files
+.swp
+.swo
+*~
+
+# Node stuff if you're mixing front-end
+node_modules/
+
+# Pyright or type checker cache
+.pyright/
+.typings/
+
+# Local IDE config
+*.code-workspace
