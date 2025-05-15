@@ -78,3 +78,5 @@ dist/
 
 # Git
 .git/
+
+.ruff_cache/
