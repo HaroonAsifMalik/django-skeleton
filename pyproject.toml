@@ -17,7 +17,17 @@ packages = [{include = "django_starter", from = "src"}]
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^4.2.0"
+pylint = "^3.3.7"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.djlint]
+profile="django"
+ignore = "H031"
+
+
+
+[tool.ruff]
+line-length = 120

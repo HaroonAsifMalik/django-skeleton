@@ -1,0 +1,27 @@
+| Task                                             | Command                        |
+| ------------------------------------------------ | ------------------------------ |
+| Create a new project                             | `poetry new your_project_name` |
+| Initialize Poetry in an existing project         | `poetry init`                  |
+| Install all dependencies (from `pyproject.toml`) | `poetry install`               |
+| Add a dependency (e.g. Django)                   | `poetry add django`            |
+| Add a dev dependency (e.g. pytest, black)        | `poetry add --dev pytest`      |
+| Remove a dependency                              | `poetry remove package_name`   |
+| Show installed packages                          | `poetry show`                  |
+| Update all dependencies                          | `poetry update`                |
+| ------------------------- | -------------------------- |
+| Spawn a shell in the venv | `poetry shell`             |
+| Run a command in the venv | `poetry run <command>`     |
+| Check the virtualenv path | `poetry env info --path`   |
+| Remove the virtualenv     | `poetry env remove python` |
+| -------------------------- | -------------------------------------------------- |
+| Start a new Django project | `poetry run django-admin startproject myproject .` |
+| Start a new app            | `poetry run python manage.py startapp myapp`       |
+| Run development server     | `poetry run python manage.py runserver`            |
+| Run migrations             | `poetry run python manage.py migrate`              |
+| Create migrations          | `poetry run python manage.py makemigrations`       |
+| Create superuser           | `poetry run python manage.py createsuperuser`      |
+| ------------------------ | --------------------------- |
+| Black (code formatter)   | `poetry add --dev black`    |
+| Flake8 (linter)          | `poetry add --dev flake8`   |
+| Pytest (test runner)     | `poetry add --dev pytest`   |
+| Coverage (test coverage) | `poetry add --dev coverage` |

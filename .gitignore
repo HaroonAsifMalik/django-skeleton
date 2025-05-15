@@ -47,7 +47,7 @@ Thumbs.db
 .python-version
 
 # Poetry
-poetry.lock
+# poetry.lock
 
 # Pytest and coverage
 .pytest_cache/
@@ -58,13 +58,13 @@ htmlcov/
 # MyPy, pylint, flake8
 .mypy_cache/
 .dmypy.json
-.pyre/
-.pytype/
-.flake8
+# .pyre/
+# .pytype/
+# .flake8
 
 # Pre-commit hooks
-.pre-commit-config.yaml
-.pre-commit/
+# .pre-commit-config.yaml
+# .pre-commit/
 
 # IDEs
 .idea/
